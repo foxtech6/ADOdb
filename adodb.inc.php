@@ -1206,7 +1206,7 @@ if (!defined('_ADODB_LAYER')) {
 				unset($element0);
 
 				foreach($inputarr as $arr) {
-					$sql = ''; $i = 0;
+					$sql = ''; $i = 0; $j=0;
 					foreach ($arr as $v) {
 						$sql .= $sqlarr[$i];
 						// from Ron Baldwin <ron.baldwin#sourceprose.com>
